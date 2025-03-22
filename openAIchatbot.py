@@ -1,8 +1,10 @@
+import os
+from dotenv import load_dotenv
 import openai
 import gradio as gr
 
-# Set your OpenAI API key (keep it secure and do not expose it publicly)
-openai.api_key = "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"
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # Initialize the conversation with a system message
 messages = [{"role": "system", "content": "You are a helpful assistant."}]
 
