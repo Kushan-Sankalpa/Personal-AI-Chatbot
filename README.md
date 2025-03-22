@@ -75,5 +75,4 @@ Personal-AI-Chatbot/
 ├── .env                   # (Optional) File for storing your API key
 ├── .gitignore             # File to ignore .env and other sensitive files
 └── requirements.txt       # (Optional) List of project dependencies
-```
 
